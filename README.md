@@ -2,7 +2,8 @@
 
 ## Implementación
 1. console.py controla el input de usuario y arroja mensajes informativos
-2. sequences_calculator
+2. sequences_calculator. Dos funciones.
+
     ```
     sequence_to_one() 
     Parameters
@@ -34,7 +35,7 @@
 
 # Ejercicio:
 
-## Para cualquier numero entero positivo 'n' definimos dos reglas.
+### Para cualquier numero entero positivo 'n' definimos dos reglas.
     - si es par: dividir en 2
     - si es impar: multiplicar por 3, después, sumar 1
 
@@ -54,8 +55,8 @@ La segunda secuencia comenzada en '7' tiene una longitud de 17.
 
 
 # Reto:
-## Encuentre, de las secuencias, la  mas larga y la segunda mas larga de todos los enteros menores o iguales a 10 Millones(10'000.000) y comparta el código.
+### Encuentre, de las secuencias, la  mas larga y la segunda mas larga de todos los enteros menores o iguales a 10 Millones(10'000.000) y comparta el código.
 
-## Pista/Ayuda/Valores de calibración:
+### Pista/Ayuda/Valores de calibración:
 La secuencia mas larga para los números menores a 1000 tiene una longitud de 179
 La secuencia mas larga para los números menores a 10000 tiene una longitud de 262
