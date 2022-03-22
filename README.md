@@ -5,30 +5,30 @@
 2. sequences_calculator
     -   sequence_to_one()
         """
-            Parameters
-            ----------
-            number : int
-                numero entero positivo 'n'
+        Parameters
+        ----------
+        number : int
+            numero entero positivo 'n'
 
-            Returns
-            -------
-            int
-            if n%2 != 0, n*3+1
-            if n%2 = 0, n/2
-            when return == 1, throw end msg
+        Returns
+        -------
+        int
+        if n%2 != 0, n*3+1
+        if n%2 = 0, n/2
+        when return == 1, throw end msg
         """
 
     -   find_sequences()   
          """
-            Parameters
-            ----------
-            int
-                limit: enteros >0 & <= limit
+        Parameters
+        ----------
+        int
+            limit: enteros >0 & <= limit
 
-            Returns
-            -------
-            int
-            int: la longitud de las dos secuencias más largas arrojadas por sequence_to_one()
+        Returns
+        -------
+        int
+        int: la longitud de las dos secuencias más largas arrojadas por sequence_to_one()
         """
 
 # Ejercicio:
