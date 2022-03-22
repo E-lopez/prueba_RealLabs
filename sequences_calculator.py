@@ -49,7 +49,7 @@ def find_sequences(limit: int) -> int:
     index = 1
 
     while index <= int(limit):
-        res_count, res_seq = sequence_to_one(index)
+        res_count, *_ = sequence_to_one(index)
         if res_count > current:
             second = current
             current = res_count
