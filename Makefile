@@ -6,8 +6,8 @@ format:
 	black *.py
 	
 lint:
-	pylint --disable=R,C consola_calculo.py
-	pylint --disable=R,C calculadora_indices.py
+	pylint --disable=R,C console.py
+	pylint --disable=R,C sequences_calculator.py
 	
 test:
 	python -m pytest -vv --cov=sequences_calculator test_code.py
